@@ -26,11 +26,11 @@ sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
  
 git clone -b 0.8 https://github.com/litecoin-project/litecoin.git
  
-find . -type f -print0 | xargs -0 sed -i 's/litecoin/funcoin/g'
-find . -type f -print0 | xargs -0 sed -i 's/Litecoin/Funcoin/g'
-find . -type f -print0 | xargs -0 sed -i 's/LiteCoin/Funcoin/g'
-find . -type f -print0 | xargs -0 sed -i 's/LITECOIN/FUNCOIN/g'
-find . -type f -print0 | xargs -0 sed -i 's/LTC/FUN/g'
+find . -type f -print0 | xargs -0 sed -i 's/litecoin/coin554/g'
+find . -type f -print0 | xargs -0 sed -i 's/Litecoin/coin554/g'
+find . -type f -print0 | xargs -0 sed -i 's/LiteCoin/coin554/g'
+find . -type f -print0 | xargs -0 sed -i 's/LITECOIN/coin554/g'
+find . -type f -print0 | xargs -0 sed -i 's/LTC/COIN_544/g'
 
 
 
